@@ -1,0 +1,88 @@
+body { 
+       margin: 0;
+       padding: 0;
+       font-family: 'Raleway', sans-serif;
+       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364), 
+                   url('https://i.pinimg.com/736x/0b/99/7e/0b997e1d9ef1c4cf850313f6ed20b3a3.jpg');
+       background-blend-mode: screen;
+       background-size: cover; 
+       background-attachment: fixed;
+       color: #e0e8f0;
+     }
+
+     .container { 
+       padding: 80px 40px;
+       max-width: 800px;
+       margin: 0 auto;
+       text-align: center;
+     }
+
+     h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em 
+      color: #ffffff;
+      text-shadow: 0 0 10px #89caff;
+     }
+
+     h2 {
+       font-size: 2em;
+       color: #c2dbf2;
+       margin-bottom: 1.6;
+     }
+
+     p {
+       font-size: 1.1em;
+       line-height: 1.6;
+    }
+   
+    a {
+      color: #aad7ff;
+      text-decoration: none;
+    }
+ 
+    a: hover {
+       text-decoration: underline;
+    }
+  </style>
+
+
+nav ul {
+    list-style-type: circle;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #898989;
+}
+
+ul {
+    font-size: 18px;
+    color: #008b8b;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+
+a {
+    color: #008b8b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
